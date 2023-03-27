@@ -115,19 +115,11 @@ const formatTime = (time) => {
 
 <style scoped>
 .stopwatches {
-<<<<<<< HEAD
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 50px;
-  max-width: 80%;
-=======
   justify-content: left;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 50px;
   max-width: 61%;
->>>>>>> Initial commit
   margin: 0 auto;
 }
 .stopwatch {
