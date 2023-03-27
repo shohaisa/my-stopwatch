@@ -1,0 +1,18 @@
+@import './base.css';
+
+body{
+  background-color: #353638;
+}
+#app {
+  max-width: 1280px;
+  margin: 72px auto;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+
