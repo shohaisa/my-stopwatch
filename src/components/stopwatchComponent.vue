@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-const stopwatches = ref([{ timer: 0, isRunning: false, intervalId: null }]);
+const stopwatches = ref([{ timer: 0, isRunning: false, intervalId: null }, { timer: 0, isRunning: false, intervalId: null }, { timer: 0, isRunning: false, intervalId: null }]);
 const startTimer = (stopwatch) => {
   stopwatch.isRunning = true;
   stopwatch.intervalId = setInterval(() => {
@@ -115,11 +115,19 @@ const formatTime = (time) => {
 
 <style scoped>
 .stopwatches {
+<<<<<<< HEAD
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   column-gap: 50px;
   max-width: 80%;
+=======
+  justify-content: left;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  max-width: 61%;
+>>>>>>> Initial commit
   margin: 0 auto;
 }
 .stopwatch {
