@@ -115,7 +115,6 @@ const formatTime = (time) => {
 
 <style scoped>
 .stopwatches {
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
